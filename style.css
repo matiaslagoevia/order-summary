@@ -3,6 +3,11 @@
 body {
   display: flex;
   flex-direction: column;
+  /* TODO: change to image bg */
+  background-color: lightblue;
+  /* TODO: add typography */
+  font-family: sans-serif;
+  line-height: 1.5em;
 }
 
 main {
@@ -15,4 +20,96 @@ main {
 
 footer {
   text-align: center;
+}
+
+.card {
+  max-width: 450px; /* to match the picture's width */
+  margin: 0 1em;
+  background-color: white;
+  border-radius: 1.5em;
+}
+
+.card__img {
+  border-radius: 1.5em 1.5em 0em 0em;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__column {
+  padding: 2em;
+  text-align: center;
+  gap: 1em;
+}
+
+.card__text {
+  color: #717fa6;
+}
+
+.card__plan-selection {
+  display: flex;
+  align-items: center;
+  margin: 1em 0;
+  /* TODO: update color */
+  background-color: #f7f9ff;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.plan-selection__img {
+  margin-right: 1em;
+}
+
+.plan-selection__text {
+  text-align: left;
+}
+
+.plan-selection__price {
+  color: #717fa6;
+}
+
+.plan-selection__link {
+  margin-left: auto;
+}
+
+.btn {
+  border: 0;
+  padding: 1em 0;
+  border-radius: 1em;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn--primary {
+  /* TODO: update colors */
+  background-color: #382ae1;
+  color: white;
+}
+
+.btn--primary:hover {
+  background-color: #766cf1;
+}
+
+.link {
+  /* update color */
+  color: #382ae1;
+}
+
+.link:hover {
+  color: #766cf1;
+  text-decoration: none;
+}
+
+.link--neutral {
+  /* TODO: update color */
+  color: #717fa6;
+  text-decoration: none;
+}
+
+.link--neutral:hover {
+  color: black;
 }
