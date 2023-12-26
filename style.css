@@ -52,7 +52,6 @@ footer {
   display: flex;
   align-items: center;
   margin: 1em 0;
-  /* TODO: update color */
   background-color: #f7f9ff;
   padding: 1em;
   border-radius: 1em;
@@ -86,7 +85,6 @@ footer {
 }
 
 .btn--primary {
-  /* TODO: update colors */
   background-color: #382ae1;
   color: white;
 }
@@ -96,7 +94,6 @@ footer {
 }
 
 .link {
-  /* update color */
   color: #382ae1;
 }
 
@@ -106,7 +103,6 @@ footer {
 }
 
 .link--neutral {
-  /* TODO: update color */
   color: #717fa6;
   text-decoration: none;
 }
