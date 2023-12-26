@@ -5,8 +5,7 @@ body {
   flex-direction: column;
   /* TODO: change to image bg */
   background-color: lightblue;
-  /* TODO: add typography */
-  font-family: sans-serif;
+  font-family: "Red Hat Display", sans-serif;
   line-height: 1.5em;
 }
 
@@ -72,6 +71,7 @@ footer {
 
 .plan-selection__link {
   margin-left: auto;
+  font-size: 0.9em;
 }
 
 .btn {
@@ -112,4 +112,9 @@ footer {
 
 .link--neutral:hover {
   color: black;
+}
+
+.link--neutral,
+.btn {
+  font-weight: 700;
 }
