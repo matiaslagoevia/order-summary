@@ -3,8 +3,9 @@
 body {
   display: flex;
   flex-direction: column;
-  /* TODO: change to image bg */
-  background-color: lightblue;
+  background-image: url("images/pattern-background-mobile.svg");
+  background-repeat: repeat-x;
+  background-color: #e0e8ff;
   font-family: "Red Hat Display", sans-serif;
   line-height: 1.5em;
 }
@@ -117,4 +118,11 @@ footer {
 .link--neutral,
 .btn {
   font-weight: 700;
+}
+
+/* after 750px, the mobile backround image breaks */
+@media (min-width: 750px) {
+  body {
+    background-image: url("images/pattern-background-desktop.svg");
+  }
 }
