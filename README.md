@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/responsive-order-summary-component-using-bem-O9kCAfvuff](https://www.frontendmentor.io/solutions/responsive-order-summary-component-using-bem-O9kCAfvuff)
-- Live Site URL: [https://order-summary.matiaslagoevia.com](https://order-summary.matiaslagoevia.com)
+- Live Site URL: [https://order-summary.matiaslagoevia.me](https://order-summary.matiaslagoevia.me)
 
 ## My process
 
@@ -77,7 +77,7 @@ This will come with later challenges, though it's something I look forward to. I
 
 ## Author
 
-- Website - [https://matiaslagoevia.com](https://matiaslagoevia.com)
+- Website - [https://matiaslagoevia.me](https://matiaslagoevia.me)
 - Frontend Mentor - [@matiaslagoevia](https://www.frontendmentor.io/profile/matiaslagoevia)
 
 ## Acknowledgments
